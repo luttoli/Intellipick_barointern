@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B8126E9C2D605178003C7CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126E912D605178003C7CB0 /* AppDelegate.swift */; };
 		B8126E9D2D605178003C7CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126E962D605178003C7CB0 /* SceneDelegate.swift */; };
-		B8126E9E2D605178003C7CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126E982D605178003C7CB0 /* ViewController.swift */; };
+		B8126E9E2D605178003C7CB0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126E982D605178003C7CB0 /* LoginViewController.swift */; };
 		B8126E9F2D605178003C7CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8126E922D605178003C7CB0 /* Assets.xcassets */; };
 		B8126EA12D605178003C7CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8126E952D605178003C7CB0 /* LaunchScreen.storyboard */; };
 		B8126EA72D6051E0003C7CB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EA62D6051E0003C7CB0 /* Constants.swift */; };
@@ -20,6 +20,9 @@
 		B8126EB52D6052B9003C7CB0 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B8126EB42D6052B9003C7CB0 /* IQKeyboardManagerSwift */; };
 		B8126EB82D605308003C7CB0 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8126EB72D605308003C7CB0 /* PretendardVariable.ttf */; };
 		B8126EBA2D605458003C7CB0 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EB92D605458003C7CB0 /* CustomButton.swift */; };
+		B8126EBE2D606F22003C7CB0 /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EBD2D606F22003C7CB0 /* LoginSuccessViewController.swift */; };
+		B8126EC02D607219003C7CB0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EBF2D607219003C7CB0 /* LoginViewModel.swift */; };
+		B8126EC22D60724E003C7CB0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EC12D60724E003C7CB0 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +32,16 @@
 		B8126E932D605178003C7CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8126E942D605178003C7CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8126E962D605178003C7CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8126E982D605178003C7CB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8126E982D605178003C7CB0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B8126EA62D6051E0003C7CB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B8126EA82D6051FF003C7CB0 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		B8126EAA2D605226003C7CB0 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		B8126EAC2D605233003C7CB0 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		B8126EB72D605308003C7CB0 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
 		B8126EB92D605458003C7CB0 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B8126EBD2D606F22003C7CB0 /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
+		B8126EBF2D607219003C7CB0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B8126EC12D60724E003C7CB0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +96,8 @@
 		B8126E992D605178003C7CB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B8126E982D605178003C7CB0 /* ViewController.swift */,
+				B8126E982D605178003C7CB0 /* LoginViewController.swift */,
+				B8126EBD2D606F22003C7CB0 /* LoginSuccessViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 		B8126E9A2D605178003C7CB0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B8126EBF2D607219003C7CB0 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 			children = (
 				B8126EAA2D605226003C7CB0 /* UIFont.swift */,
 				B8126EAC2D605233003C7CB0 /* UIColor.swift */,
+				B8126EC12D60724E003C7CB0 /* String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -223,12 +232,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8126E9C2D605178003C7CB0 /* AppDelegate.swift in Sources */,
+				B8126EC22D60724E003C7CB0 /* String.swift in Sources */,
 				B8126EAD2D605233003C7CB0 /* UIColor.swift in Sources */,
+				B8126EBE2D606F22003C7CB0 /* LoginSuccessViewController.swift in Sources */,
 				B8126EA92D6051FF003C7CB0 /* CustomLabel.swift in Sources */,
 				B8126EAB2D605226003C7CB0 /* UIFont.swift in Sources */,
 				B8126EBA2D605458003C7CB0 /* CustomButton.swift in Sources */,
 				B8126E9D2D605178003C7CB0 /* SceneDelegate.swift in Sources */,
-				B8126E9E2D605178003C7CB0 /* ViewController.swift in Sources */,
+				B8126E9E2D605178003C7CB0 /* LoginViewController.swift in Sources */,
+				B8126EC02D607219003C7CB0 /* LoginViewModel.swift in Sources */,
 				B8126EA72D6051E0003C7CB0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
