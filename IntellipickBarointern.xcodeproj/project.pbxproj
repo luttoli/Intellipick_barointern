@@ -21,7 +21,6 @@
 		B8126EB82D605308003C7CB0 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8126EB72D605308003C7CB0 /* PretendardVariable.ttf */; };
 		B8126EBA2D605458003C7CB0 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EB92D605458003C7CB0 /* CustomButton.swift */; };
 		B8126EBE2D606F22003C7CB0 /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EBD2D606F22003C7CB0 /* LoginSuccessViewController.swift */; };
-		B8126EC02D607219003C7CB0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EBF2D607219003C7CB0 /* LoginViewModel.swift */; };
 		B8126EC22D60724E003C7CB0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8126EC12D60724E003C7CB0 /* String.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		B8126EB72D605308003C7CB0 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
 		B8126EB92D605458003C7CB0 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B8126EBD2D606F22003C7CB0 /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
-		B8126EBF2D607219003C7CB0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		B8126EC12D60724E003C7CB0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,13 +71,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8126E902D605178003C7CB0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B8126E972D605178003C7CB0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,20 +93,10 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B8126E9A2D605178003C7CB0 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				B8126EBF2D607219003C7CB0 /* LoginViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		B8126E9B2D605178003C7CB0 /* IntellipickBarointern */ = {
 			isa = PBXGroup;
 			children = (
-				B8126E902D605178003C7CB0 /* Model */,
 				B8126E992D605178003C7CB0 /* View */,
-				B8126E9A2D605178003C7CB0 /* ViewModel */,
 				B8126EA42D6051A2003C7CB0 /* Utils */,
 				B8126EA52D6051A5003C7CB0 /* Extension */,
 				B8126E972D605178003C7CB0 /* Resource */,
@@ -240,7 +221,6 @@
 				B8126EBA2D605458003C7CB0 /* CustomButton.swift in Sources */,
 				B8126E9D2D605178003C7CB0 /* SceneDelegate.swift in Sources */,
 				B8126E9E2D605178003C7CB0 /* LoginViewController.swift in Sources */,
-				B8126EC02D607219003C7CB0 /* LoginViewModel.swift in Sources */,
 				B8126EA72D6051E0003C7CB0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
