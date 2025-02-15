@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
         emailTextField.borderStyle = .roundedRect
         emailTextField.layer.borderColor = UIColor.border.darkGray.cgColor
         emailTextField.layer.borderWidth = 1.0
-        emailTextField.layer.cornerRadius = 8
+        emailTextField.layer.cornerRadius = Constants.radius.px8
         return emailTextField
     }()
 
@@ -35,7 +35,7 @@ class LoginViewController: UIViewController {
         passwordTextField.borderStyle = .roundedRect
         passwordTextField.layer.borderColor = UIColor.border.darkGray.cgColor
         passwordTextField.layer.borderWidth = 1.0
-        passwordTextField.layer.cornerRadius = 8
+        passwordTextField.layer.cornerRadius = Constants.radius.px8
         passwordTextField.isSecureTextEntry = true
         return passwordTextField
     }()
